@@ -1,6 +1,6 @@
 html {
- scroll-behavior: smooth;
-}
+  scroll-behavior: smooth;
+ }
 #map iframe
 {
     width: 50%;
@@ -16,6 +16,12 @@ html {
 {
     text-shadow: none;
 }
+
+#footer{
+height: 20px;
+background-color:white;
+}
+ 
 input
 {
     background: grey
@@ -40,6 +46,14 @@ height: 30px;
   height:500px;
   border: none;
 }
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .travel_mainDiv
 {
   float: left;
@@ -64,6 +78,9 @@ height: 30px;
 margin-left: 20px;
 }
 
+#aluminiList img{
+height:250px;
+}
 
 #achievementsID{
  padding-bottom: 10px;
@@ -87,4 +104,59 @@ float: right;
 .movie_text span
 {
 color: #ff7700;
+}
+
+.environment_li
+{
+  margin-top: 13px;
+}
+
+.environment_li h4
+{
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+
+.environment_li img
+{
+  border-radius: 25px;
+  height: 250px;
+}
+
+.environment_li p
+{
+  margin-top:10px;
+}
+
+.header_entrepreneur
+{
+  line-height: 2;
+}
+
+.book
+{
+  cursor: pointer;
+}
+
+.book hr
+{
+  margin-bottom: 10px;
+}
+
+.modal-content
+{
+  margin-top: 100px;
+}
+
+.img_modal
+  {
+    display: inline-block;
+  }
+.p_modal
+  {
+      margin-top: 10px;
+}
+.modal-body
+{
+    text-align: center
 }
