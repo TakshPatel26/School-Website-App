@@ -47,7 +47,6 @@ height: 30px;
   border: none;
 }
 
-/* Clearfix (clear floats) */
 .row::after {
   content: "";
   clear: both;
